@@ -3,8 +3,11 @@
 In security group add inbound rules port 8080, hence jenkins is running in this port.
 
 In ec2 terminal run these commands to install java :
+
 ``` sudo apt update && sudo apt upgrade -y ```
+
 ``` sudo apt install -y fontconfig openjdk-17-jre ```
+
 ``` java -version ```
 
 Add Jenkins key :
