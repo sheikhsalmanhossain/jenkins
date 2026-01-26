@@ -10,38 +10,7 @@ In ec2 terminal run these commands to install java :
 
 ``` java -version ```
 
-Add Jenkins key :
-```
-sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
-https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
-```
-Add Jenkins repo :
-```
-echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
-https://pkg.jenkins.io/debian-stable binary/" | \
-sudo tee /etc/apt/sources.list.d/jenkins.list
-```
 
-Install required tools for Jenkins :
-```
-sudo apt update
-sudo apt install -y curl gnupg
-```
-Add Jenkins GPG key correctly :
-```
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | \
-sudo gpg --dearmor -o /usr/share/keyrings/jenkins-keyring.gpg
-```
-Verify key exists:
-``` ls -l /usr/share/keyrings/jenkins-keyring.gpg ```
-
-Add Jenkins repository (correct key reference) :
-
-```
-echo "deb [signed-by=/usr/share/keyrings/jenkins-keyring.gpg] \
-https://pkg.jenkins.io/debian-stable binary/" | \
-sudo tee /etc/apt/sources.list.d/jenkins.list
-```
 
 ### Install Jenkins via SNAP :
 
