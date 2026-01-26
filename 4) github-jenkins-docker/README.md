@@ -1,4 +1,4 @@
-## Installing Jenkins in ec2 (ubuntu):
+# Installing Jenkins in ec2 (ubuntu):
 
 In security group add inbound rules port 8080, hence jenkins is running in this port.
 
