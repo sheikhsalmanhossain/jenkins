@@ -79,7 +79,10 @@ Check Jenkins snap services :
 
 ``` snap services Jenkins ```
 
-Start Jenkins ``` sudo snap start Jenkins ```
+Start Jenkins 
+
+``` sudo snap start Jenkins ```
 
 Browse jenkins :
+
 ``` ip:8080 ```
