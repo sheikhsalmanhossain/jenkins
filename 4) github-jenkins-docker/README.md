@@ -68,12 +68,15 @@ sudo systemctl start snapd
 ```
 
 Verify snap works :
+
 ``` snap version ```
 
 If this fails, log out and log back in, or reboot once:
+
 ``` sudo reboot ```
 
 Check Jenkins snap services :
+
 ``` snap services Jenkins ```
 
 Start Jenkins ``` sudo snap start Jenkins ```
