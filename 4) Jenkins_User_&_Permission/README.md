@@ -4,7 +4,7 @@
 
 Manage Jenkins > Credentials > System > Global Credentials
 
-![Image Alt](https://github.com/sheikhsalmanhossain/jenkins/blob/44fcf5b1204242bc4d36319c2d06ee746c75472f/4)%20Jenkins_User_%26_Permission/images/jenkins_credential1.png)
+![Image Alt](https://github.com/sheikhsalmanhossain/jenkins/blob/0f947a4f2a03bf039a9f55e50d5b746365369a6b/4%20Jenkins_User_%26_Permission/images/jenkins_credential1.png)
 Here we use username = docker token user name, password= token password.
 
 Now, How to use in a pipeline ?
